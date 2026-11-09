@@ -7,6 +7,9 @@
         <field name="arch" type="xml">
             <xpath expr="//notebook" position="inside">
                 <page string="Contenido web" name="web_content">
+			<group string="Compra en línea" name="web_purchase_group">
+			    <field name="web_purchase" />
+	    	    </group>
                     <group string="Descripción web" name="web_description_group">
                         <field name="web_description" nolabel="1" colspan="2"
                                placeholder="Texto descriptivo que mostrará el sitio..."/>
